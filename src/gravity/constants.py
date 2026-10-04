@@ -1,0 +1,25 @@
+# Physical Constants
+G = 6.67430e-11
+G = 6.67430e-1 # This should be commented out if doing real simulations.
+
+# Pygame Constants
+SCREEN_SIZE = (1280, 720)
+FPS = 60
+
+# Scaling Constants
+METERS_PER_PIXEL = 3e8
+TIME_SCALE = 86400*7
+
+# Body Constants
+EARTH_RADIUS = 6.371e6
+EARTH_MASS = 5.9722e24
+EARTH_COORDINATES = (1.496e11, 1.496e11)
+EARTH_VELOCITY = (0, 29_780)
+SUN_RADIUS = 6.957e8
+SUN_MASS = 1.989e30
+SUN_COORDINATES = (1.5e10, 1.5e10)
+SUN_VELOCITY = (0, 0)
+MOON_RADIUS = 1.7374e6
+MOON_MASS = 7.34767309e22
+MOON_COORDINATES = (1.496e11+384.4e6, 1.496e11+384.4e6)
+MOON_VELOCITY = (00, 29_780+1_022)
